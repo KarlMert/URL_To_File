@@ -1,6 +1,6 @@
-Package: URL_2_File
+Package: ffurl
 Type: Package
-Title: URL_2_File
+Title: URL to File
 Version: 0.1.0
 Author@R: c(
   person("Karl", "Mertens", email = "karlmertens@boisestate.edu", role = c("aut","cre")),
