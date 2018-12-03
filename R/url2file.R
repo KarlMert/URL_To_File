@@ -1,5 +1,3 @@
-
-
 #' @title Download a file from a URL into your working directory
 #' @description This is a fuction to streamline downloading files from a URL to a new or existing folder in the working directory.
 #' @param  urlfile provide a URL adddress in quotes of the file to download stored in a vector
