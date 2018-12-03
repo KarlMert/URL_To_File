@@ -2,18 +2,19 @@
 % Please edit documentation in R/url2file.R
 \name{url2file}
 \alias{url2file}
-\title{url2file
-This function downloads a file from a web address and places it in a file in your working directory.
-Arguments:
-urlFile: provide a url address pointing to the file to download stored in a vector
-dirID: name of the directory to save files in (default = "Downloaded_files");}
+\title{Download a file from a URL into your working directory}
 \usage{
-url2file(urlFile, dirID = "Downloaded_files")
+url2file(urlfile, dirID = "Downloaded_files")
+}
+\arguments{
+\item{urlfile}{provide a URL adddress in quotes of the file to download stored in a vector}
+
+\item{dirID}{provide the name of an existing or new folder (default = "Downloaded_files")}
 }
 \description{
-url2file
-This function downloads a file from a web address and places it in a file in your working directory.
-Arguments:
-urlFile: provide a url address pointing to the file to download stored in a vector
-dirID: name of the directory to save files in (default = "Downloaded_files");
+This is a fuction to streamline downloading files from a URL to a new or existing folder in the working directory.
+}
+\examples{
+ By executing "url2file("https://page.com")" will download the page into a file called "Downloaded_files" in your working directory.
+ You can specify an existing folder in the working directory (dirID="myfolder") or specify a new folder (dirID="newfolder")
 }

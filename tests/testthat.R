@@ -1,4 +1,4 @@
 library(testthat)
-library(ffurl)
+library(url2file)
 
-test_check("ffurl")
+test_check("url2file")

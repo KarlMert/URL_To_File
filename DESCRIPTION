@@ -1,10 +1,11 @@
-Package: ffurl
+Package: url2file
 Type: Package
 Title: URL to File
 Version: 0.1.0
-Author@R: c(
-  person("Karl", "Mertens", email = "karlmertens@boisestate.edu", role = c("aut","cre")),
-  person("Sven", "Buerki", email = "svenbuerki@boisestate.edu", role = c("aut", "cre")))
+Authors@R: as.person(c(
+    "Sven Buerki <svenbuerki@boisestate.edu> [aut, cre]", 
+    "Karl Mertens <karlmertens@boisestate.edu> [aut]"
+  ))
 Maintainer: The package maintainer <karlmertens@u.boisestate.edu>
 Description: This package contains a function to create a file from a URL and place it 
     in your working directory in R Studio.
@@ -13,8 +14,10 @@ Depends: R (>= 3.4.1)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Imports: R.utils
 Suggests: 
     knitr,
     rmarkdown,
-    testthat
+    testthat,
+    utils
 VignetteBuilder: knitr

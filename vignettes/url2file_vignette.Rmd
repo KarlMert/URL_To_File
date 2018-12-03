@@ -43,6 +43,6 @@ The default filename can be changed to anything you wish by specifying a differe
 url2file("https://raw.githubusercontent.com/opetchey/RREEBES/Beninca_development/Beninca_etal_2008_Nature/report/functions/indirect_method_functions.R", dirID = "Rscripts")
 ```
 
-#####Note: `url2file` creates a new folder "Downloaded_files" in the same file as where the `r script` is executed. Reference and relocate accordingly!! 
+#####Note: "url2file" creates a new folder "Downloaded_files" in the same file as where the R script is executed. Reference and relocate accordingly!! 
 
 #####Wishing you happy files!
